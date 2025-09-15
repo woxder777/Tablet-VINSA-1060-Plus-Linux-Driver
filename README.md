@@ -31,8 +31,8 @@ cargo build --release
 # For Install udev rules (no sudo needed)
 # Create the file 99-vinsa-tablet.rules
 sudo nano /etc/udev/rules.d/99-vinsa-tablet.rules
-#  and copy this into it
 
+#  and copy this into it
 SUBSYSTEM=="usb", ATTR{idVendor}=="08f2", ATTR{idProduct}=="6811", MODE="0666"
 SUBSYSTEM=="input", GROUP="input", MODE="0666"
 KERNEL=="uinput", MODE="0666", GROUP="input"
