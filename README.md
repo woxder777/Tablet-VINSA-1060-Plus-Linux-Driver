@@ -4,13 +4,13 @@
 Native Linux driver for the VINSA 1600 Plus drawing tablet with full pressure sensitivity and button support.
 
 ## ✨ Features
-- ✅ Full pressure support (8192 levels)
-- ✅ Adjustable sensitivity settings
-- ✅ Mouse/Tablet mode toggle (B button)
-- ✅ Dynamically adjustable work area ([ ] buttons)
-- ✅ All programmable buttons
-- ✅ No sudo required (udev rules included)
-- ✅ Desktop launcher with custom icon
+-  Full pressure support (8192 levels)
+-  Adjustable sensitivity settings
+-  Mouse/Tablet mode toggle (B button)
+-  Dynamically adjustable work area ([ ] buttons)
+-  All programmable buttons
+-  No sudo required (udev rules included)
+-  Desktop launcher with custom icon
 
 ## 📦 Installation
 
@@ -35,6 +35,8 @@ sudo udevadm trigger
 
 # Make driver executable
 chmod +x target/release/v1600p
+
+# In the file VINSA 1600 Plus Tablet.desktop launcher, change the path where the "v1600p" driver file was placed.
 ```
 
 
