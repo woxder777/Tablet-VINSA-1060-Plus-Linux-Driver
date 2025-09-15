@@ -18,6 +18,7 @@ The "marvinbelfort" driver has been adapted and expanded for this graphics table
 -  Desktop launcher with custom icon
 
 ## 📦 Installation
+You need to have Rust installed previously.
 
 ```bash
 # Clone the repository
