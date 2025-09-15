@@ -145,8 +145,8 @@ impl DeviceDispatcher {
 
     fn smooth_coordinates(&mut self, x: i32, y: i32) -> (i32, i32) {
         if self.is_mouse_mode {
-            // MODO RATÓN: Menos suavizado (sin inercia)
-            let smoothed_x = (self.last_x * 1 + x) / 2;  // 50%/50% - rápido y preciso
+            // MOUSE MODE: Soft smoothed
+            let smoothed_x = (self.last_x * 1 + x) / 2;  // 50%/50%
             let smoothed_y = (self.last_y * 1 + y) / 2;
 
             self.last_x = smoothed_x;
@@ -154,8 +154,8 @@ impl DeviceDispatcher {
 
             (smoothed_x, smoothed_y)
         } else {
-            // MODO TABLETA: Más suavizado (para trazos suaves)
-            let smoothed_x = (self.last_x * 3 + x) / 4;  // 75%/25% - suavizado artístico
+            // TABLET MODE: hard smoothed
+            let smoothed_x = (self.last_x * 3 + x) / 4;  // 75%/25%
             let smoothed_y = (self.last_y * 3 + y) / 4;
 
             self.last_x = smoothed_x;
@@ -343,8 +343,8 @@ fn raw_pen_abs_to_pen_abs_events(&mut self, x_axis: i32, y_axis: i32, pressure: 
         let center_y = 2048;
 //        let range = 1230;     // Small Range (4096 * 0.3 = 1229 (30%))
 //        let scale_factor = 4096 / range;  // ≈ 3.33
-        let range = (4096.0 * self.mouse_area_scale) as i32;  // ← USAR mouse_area_scale
-        let scale_factor = 4096 / range.max(1);  // ← Evitar división por cero
+        let range = (4096.0 * self.mouse_area_scale) as i32;  // Use mouse_area_scale
+        let scale_factor = 4096 / range.max(1);  // No zero divide
 
         // Map small area [center±512] to [0-4096]
         let scaled_x = ((x_axis - center_x) * scale_factor) + 2048;
