@@ -31,11 +31,8 @@ sudo udevadm trigger
 chmod +x target/release/v1600p
 
 
-# References
-[Marcus Vinícius Belfort] (https://github.com/marvinbelfort)
 
-[Tool that enables expanded mode for the tablet, by DigiMend] (https://github.com/DIGImend/10moons-tools)
-
-[Learning about the possibility of creating user-space drivers] (https://github.com/alex-s-v/10moons-driver)
-
-This code is a combination of the two above, with some improvements.
+## References
+- [marvinbelfort](https://github.com/marvinbelfort) - Initial research
+- [DIGImend/10moons-tools](https://github.com/DIGImend/10moons-tools) - Expanded mode enablement
+- [alex-s-v/10moons-driver](https://github.com/alex-s-v/10moons-driver) - User-space driver approach
