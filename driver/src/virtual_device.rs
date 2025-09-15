@@ -1,4 +1,4 @@
-// VINSA 1600 Plus Driver (by feveal)
+// VINSA 1600 Plus Linux Driver (by feveal@hotmail.com)
 use std::io::Error;
 use std::{collections::HashMap, u16};
 
@@ -92,8 +92,8 @@ impl DeviceDispatcher {
             (1, vec![Key::KEY_SPACE]),      //SPACE
             (2, vec![Key::KEY_LEFTALT]),    //ALT
             (3, vec![Key::KEY_LEFTCTRL]),   //CTRL
-            (4, vec![Key::KEY_SCROLLUP]),   //MOUSE, SCROLL UP
-            (5, vec![Key::KEY_SCROLLDOWN]), //MOUSE, SCROLL DOWN
+            (4, vec![Key::KEY_PAGEUP]),     //MOUSE, PAGEL UP
+            (5, vec![Key::KEY_PAGEDOWN]),   //MOUSE, PAGE DOWN
             (6, vec![Key::KEY_LEFTBRACE]),  //MOUSE AREA -
             (7, vec![Key::KEY_LEFTCTRL, Key::KEY_KPMINUS]), //CTRL-, ZOOM -
             (8, vec![Key::KEY_LEFTCTRL, Key::KEY_KPPLUS]),  //CTRL+, ZOOM +
