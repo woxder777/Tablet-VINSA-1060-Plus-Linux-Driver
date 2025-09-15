@@ -17,6 +17,8 @@ The [marvinbelfort](https://github.com/marvinbelfort/mx002_linux_driver) driver 
 -  No sudo required (udev rules included)
 -  Desktop launcher with custom icon
 
+# Buttons help (https://github.com/feveal/Tablet-VINSA-1600-Plus-Linux-Driver/blob/main/driver/launcher/help/v1600p.png)
+
 ## 📦 Installation
 You need to have Rust installed previously.
 
