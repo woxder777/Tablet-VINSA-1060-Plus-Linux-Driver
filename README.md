@@ -29,7 +29,7 @@ sudo udevadm trigger
 
 # Make driver executable
 chmod +x target/release/v1600p
-
+```
 
 
 ## References
