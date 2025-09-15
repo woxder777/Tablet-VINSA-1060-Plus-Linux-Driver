@@ -1,7 +1,7 @@
  
 # Linux Driver for VINSA 1600 Plus Drawing Tablet
 
-Native Linux driver for the VINSA 1600 Plus drawing tablet with full pressure sensitivity and button support.
+Linux driver for the VINSA 1600 Plus drawing tablet with full pressure sensitivity and button support.
 
 The "marvinbelfort" driver has been adapted and expanded for this graphics tablet, improving sensitivity and providing two modes of use: one mouse-like, which uses a smaller area of ​​the tablet and is also customizable according to preferences, and another tablet-like mode, which occupies the entire area and offers greater sensitivity for artistic drawing.
 
@@ -28,14 +28,16 @@ cd vinsa-1600-driver
 # Build the driver
 cargo build --release
 
-# Install udev rules (no sudo needed)
-sudo cp 99-vinsa-tablet.rules /etc/udev/rules.d/
+# For Install udev rules (no sudo needed)
+# Create the file 99-vinsa-tablet.rules
+sudo nano /etc/udev/rules.d/99-vinsa-tablet.rules
+#  and copy this into it
 
 SUBSYSTEM=="usb", ATTR{idVendor}=="08f2", ATTR{idProduct}=="6811", MODE="0666"
 SUBSYSTEM=="input", GROUP="input", MODE="0666"
 KERNEL=="uinput", MODE="0666", GROUP="input"
 
-
+# Reload rules
 sudo udevadm control --reload-rules
 sudo udevadm trigger
 
