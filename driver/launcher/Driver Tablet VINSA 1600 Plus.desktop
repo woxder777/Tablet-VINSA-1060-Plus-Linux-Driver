@@ -1,13 +1,10 @@
 [Desktop Entry]
 Categories=Utility;
-Comment[es_ES]=Controlador para tableta gráfica VINSA
-Comment=Controlador para tableta gráfica VINSA
-Exec=/home/feveal/Programas/Driver_tablet/./v1600p
-GenericName[es_ES]=
+Comment=Driver for VINSA graphics tablet
+Exec=/home/*user*/Driver_tablet/./v1600p
 GenericName=
-Icon=/home/feveal/Programas/Driver_tablet/vinsa1600.png
+Icon=/home/*user*/Driver_tablet/vinsa1600.png
 MimeType=
-Name[es_ES]=Driver Tablet VINSA 1600 Plus
 Name=Driver Tablet VINSA 1600 Plus
 Path=
 StartupNotify=false
