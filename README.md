@@ -44,7 +44,8 @@ sudo udevadm trigger
 # Make driver executable
 chmod +x target/release/v1600p
 
-# In the file VINSA 1600 Plus Tablet.desktop launcher, change the path where the "v1600p" driver file was placed.
+# In the file VINSA 1600 Plus Tablet.desktop launcher,
+change the path where the "v1600p" driver file was placed.
 ```
 
 
