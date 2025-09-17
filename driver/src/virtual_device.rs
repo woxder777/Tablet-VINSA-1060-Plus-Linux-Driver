@@ -1,4 +1,4 @@
-// VINSA 1600 Plus Linux Driver (by feveal@hotmail.com)
+// VINSA 1060 Plus Linux Driver (by feveal@hotmail.com)
 use std::io::Error;
 use std::{collections::HashMap, u16};
 
