@@ -1,7 +1,7 @@
  
-# Linux Driver for VINSA 1600 Plus Drawing Tablet
+# Linux Driver for VINSA 1060 Plus Drawing Tablet
 
-Linux driver for the VINSA 1600 Plus drawing tablet with full pressure sensitivity and button support.
+Linux driver for the VINSA 1060 Plus drawing tablet with full pressure sensitivity and button support.
 
 The [marvinbelfort](https://github.com/marvinbelfort/mx002_linux_driver) driver has been adapted and expanded for this graphics tablet, improving sensitivity and providing two modes of use: one mouse-like, which uses a smaller area of ​​the tablet and is also customizable according to preferences, and another tablet-like mode, which occupies the entire area and offers greater sensitivity for artistic drawing imitating the Windows driver.
 
